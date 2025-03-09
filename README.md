@@ -22,3 +22,10 @@ Specifically, this repository covers:
 - Techniques for simulating human group interactions using LLMs, and implications of LLM-based systems on society.
 - Observations of LLMs' internal mechanisms and behavioral patterns, including reasoning, hallucination, generalization, sycophancy, planning, and alignment.
 </details>
+
+tmp
+
+| Title                                                                       | comment               |
+| --------------------------------------------------------------------------- | --------------------- |
+| [title1](obsidian://open?vault=github&file=research-notes%2Ftmp%2Ftmpfile1) | lets see what happens |
+| Marie                                                                       | Curie                 |
