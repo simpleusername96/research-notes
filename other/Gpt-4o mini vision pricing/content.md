@@ -13,8 +13,8 @@ https://openai.com/api/pricing/
 
 gpt-4o mini가 gpt-4o에 비해 vision 처리에 사용하는 토큰이 30배 이상 되는 것이 그 이유인 것 같네요. 이미 사용하고 계시던 분들은 아시겠지만, 혹시 몰라 공유합니다!
 
-![gpt-4o_mini_vision_pricing.jpg](<images/gpt-4o_mini_vision_pricing.jpg>)
+![gpt-4o_mini_vision_pricing.jpg](<gpt-4o_mini_vision_pricing.jpg>)
 
-![gpt-4o-2024-05-13_vision_pricing.jpg](<images/gpt-4o-2024-05-13_vision_pricing.jpg>)
+![gpt-4o-2024-05-13_vision_pricing.jpg](<gpt-4o-2024-05-13_vision_pricing.jpg>)
 
-![gpt-4o_2024-08-06_vision_pricing.jpg](<images/gpt-4o_2024-08-06_vision_pricing.jpg>)
+![gpt-4o_2024-08-06_vision_pricing.jpg](<gpt-4o_2024-08-06_vision_pricing.jpg>)
