@@ -28,9 +28,9 @@ Specifically, this repository covers:
 
 Resource List
 
-| Title                                                                 | Link                                        |
-| --------------------------------------------------------------------- | ------------------------------------------- |
-| [[research-notes/GSM8K Platinum/content\|GSM8K Platinum]]             | https://gradientscience.org/gsm8k-platinum/ |
-| [[research-notes/Critique fine-tuning/content\|Critique fine-tuning]] | https://arxiv.org/pdf/2501.17703v2          |
-|                                                                       |                                             |
-|                                                                       |                                             |
+| Title                                                     | Link                                        |
+| --------------------------------------------------------- | ------------------------------------------- |
+| [GSM8K Platinum](<GSM8K Platinum/content.md>)             | https://gradientscience.org/gsm8k-platinum/ |
+| [Critique fine-tuning](<Critique fine-tuning/content.md>) | https://arxiv.org/pdf/2501.17703v2          |
+|                                                           |                                             |
+|                                                           |                                             |
