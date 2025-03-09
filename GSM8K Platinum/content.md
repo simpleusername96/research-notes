@@ -4,9 +4,9 @@ GSM8K의 오류를 수정한 새로운 벤치마크, GSM8K-Platinum이 공개되
 
 기존 GSM8K에서는 SOTA 모델들도 정확도가 약 95% 수준에서 더 이상 오르지 못하는 현상이 나타났는데요. 연구진은 이 원인이 벤치마크 자체의 애매하거나 잘못된 문제 때문이었다고 밝혔습니다. 
 
-연구 블로그: https://gradientscience.org/gsm8k-platinum/
-연구자 X 링크: https://x.com/aleks_madry/status/1897753562824032512
-GSM8K Platinum huggingface: https://huggingface.co/datasets/madrylab/gsm8k-platinum
+연구 블로그: https://gradientscience.org/gsm8k-platinum/  
+연구자 X 링크: https://x.com/aleks_madry/status/1897753562824032512  
+GSM8K Platinum huggingface: https://huggingface.co/datasets/madrylab/gsm8k-platinum  
 
 연구진은 이를 보다 자세히 검증하기 위해 여러 최상위 LLM을 사용해 기존 GSM8K의 모든 문제를 다시 검증했습니다. 이때, 하나 이상의 모델이 정답과 다른 결과를 낸 문제들을 ‘의심스러운 질문’으로 선정했습니다. 이렇게 선정된 219개의 질문을 연구진이 다시 수작업으로 검토하여, 최종적으로 110개는 삭제하고 10개는 잘못된 정답을 수정했습니다. 
 
