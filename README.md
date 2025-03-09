@@ -29,13 +29,14 @@ Specifically, this repository covers:
 Repo Structure
 	
 - `/research`
-	- LLM과 관련된 다양한 연구 논문과 기사에 대한 리뷰와 분석을 포함합니다. 
-	- This section contains reviews and analyses of various research papers and articles related to LLMs.​
-	- [Variation selector](<other/Variation selector/content>), [GSM8K Platinum](<other/GSM8K Platinum/content>), [Developer Messages](<other/Developer Messages/content>) etc.
+	LLM과 관련된 다양한 연구 논문과 학술적인 글에 대한 리뷰와 분석을 포함합니다. 
+	[Critique Fine-Tuning](<research/Critique Fine-Tuning Learning to Critique is More Effective than Learning to Imitate/content.md>), [Emergent Misalignment](<research/Emergent Misalignment Narrow finetuning can produce broadly misaligned LLMs/content.md>), [Emergent Value Systems](<research/Utility Engineering Analyzing and Controlling Emergent Value Systems in AIs/content.md>) etc.
 
-- `/other`: This section encompasses a variety of topics, including:​
-    - LLM 애플리케이션 리뷰 (Reviews of LLM applications)
-    - LLM 커뮤니티 내 토론 및 뉴스​ (Discussions and news within the LLM community​)
-	- 모델 및 벤치마크 평가​ (Evaluations of models and benchmarks​)
-	- LLM의 예외적 행동 사례 분석​ (Analysis of Exceptional LLM Behavior)
-	- [Critique Fine-Tuning](<research/Critique Fine-Tuning Learning to Critique is More Effective than Learning to Imitate/content>), [Emergent Misalignment](<research/Emergent Misalignment Narrow finetuning can produce broadly misaligned LLMs/content>), [Emergent Value Systems](<research/Utility Engineering Analyzing and Controlling Emergent Value Systems in AIs/content.md>) etc.
+
+- `/other`
+	학술적인 연구 외의 모든 내용을 다룹니다. 예시로는 다음과 같습니다:
+	LLM 애플리케이션 리뷰
+    LLM 커뮤니티 내 토론 및 뉴스​
+	모델 및 벤치마크 평가
+	LLM의 예외적 행동 사례 분석
+	[Variation selector](<other/Variation selector/content.md>), [GSM8K Platinum](<other/GSM8K Platinum/content.md>), [Developer Messages](<other/Developer Messages/content.md>) etc.
