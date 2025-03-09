@@ -38,4 +38,4 @@ Repo Structure
     - LLM 커뮤니티 내 토론 및 뉴스​ (Discussions and news within the LLM community​)
 	- 모델 및 벤치마크 평가​ (Evaluations of models and benchmarks​)
 	- LLM의 예외적 행동 사례 분석​ (Analysis of Exceptional LLM Behavior)
-	- [Critique Fine-Tuning](<research/Critique Fine-Tuning Learning to Critique is More Effective than Learning to Imitate/content>), [Emergent Misalignment](<research/Emergent Misalignment Narrow finetuning can produce broadly misaligned LLMs/content>), [Emergent Value Systems](<research/Utility Engineering Analyzing and Controlling Emergent Value Systems in AIs/content>) etc.
+	- [Critique Fine-Tuning](<research/Critique Fine-Tuning Learning to Critique is More Effective than Learning to Imitate/content>), [Emergent Misalignment](<research/Emergent Misalignment Narrow finetuning can produce broadly misaligned LLMs/content>), [Emergent Value Systems](<research/Utility Engineering Analyzing and Controlling Emergent Value Systems in AIs/content.md>) etc.
