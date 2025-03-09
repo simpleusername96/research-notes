@@ -26,11 +26,17 @@ Specifically, this repository covers:
 </details>
 
 
-Resource List
+Repo Structure
+	
+- `/research`
+	- LLM과 관련된 다양한 연구 논문과 기사에 대한 리뷰와 분석을 포함합니다. 
+	- This section contains reviews and analyses of various research papers and articles related to LLMs.​
+	- [Variation selector](<other/Variation selector/content>), [GSM8K Platinum](<other/GSM8K Platinum/content>), [Developer Messages](<other/Developer Messages/content>) etc.
 
-| Title                                                                                                                                                                                                    | Link                                                           |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| [GSM8K Platinum](<GSM8K Platinum/content.md>)                                                                                                                                                            | https://gradientscience.org/gsm8k-platinum/                    |
-| [Critique Fine-Tuning Learning to Critique is More Effective than Learning to Imitate](<research-notes/Critique Fine-Tuning Learning to Critique is More Effective than Learning to Imitate/content.md>) | https://arxiv.org/pdf/2501.17703v2                             |
-| [Emergent Misalignment Narrow finetuning can produce broadly misaligned LLMs](<research-notes/Emergent Misalignment Narrow finetuning can produce broadly misaligned LLMs/content.md>)                   | https://martins1612.github.io/emergent_misalignment_betley.pdf |
-|                                                                                                                                                                                                          |                                                                |
+- `/other`: This section encompasses a variety of topics, including:​
+    - LLM 애플리케이션 리뷰 (Reviews of LLM applications)
+    - LLM 커뮤니티 내 토론 및 뉴스​ (Discussions and news within the LLM community​)
+	- 모델 및 벤치마크 평가​ (Evaluations of models and benchmarks​)
+	- LLM의 예외적 행동 사례 분석​ (Analysis of Exceptional LLM Behavior)
+	- [Critique Fine-Tuning](<research/Critique Fine-Tuning Learning to Critique is More Effective than Learning to Imitate/content>), [Emergent Misalignment](<research/Emergent Misalignment Narrow finetuning can produce broadly misaligned LLMs/content>), [Emergent Value Systems](<research/Utility Engineering Analyzing and Controlling Emergent Value Systems in AIs/content>) etc.
+	- 
