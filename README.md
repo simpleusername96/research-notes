@@ -12,8 +12,8 @@
 
 ENG
 <details>
-This repository is dedicated to arxiving materials that I've independently explored. My studies began from a fascination with the flexibility and uncertainty inherent in LLMs, and these documents are compiled to assist my learning and practical applications.
 
+This repository is dedicated to arxiving materials that I've independently explored. My studies began from a fascination with the flexibility and uncertainty inherent in LLMs, and these documents are compiled to assist my learning and practical applications.
 
 **Note**: Since this repository consists of self-organized materials, some content may contain inaccuracies. Feedback and discussions are always welcome!
 
@@ -22,11 +22,15 @@ Specifically, this repository covers:
 - How dataset composition methods during pre- and post-training affect quantitative metrics and downstream tasks, and the reasons for these effects.
 - Techniques for simulating human group interactions using LLMs, and implications of LLM-based systems on society.
 - Observations of LLMs' internal mechanisms and behavioral patterns, including reasoning, hallucination, generalization, sycophancy, planning, and alignment.
+- 
 </details>
 
-tmp
 
-| Title                       | comment               |
-| --------------------------- | --------------------- |
-| [title1](./tmp/tmpfile1.md) | lets see what happens |
-| Marie                       | Curie                 |
+Resource List
+
+| Title                                                                 | Link                                        |
+| --------------------------------------------------------------------- | ------------------------------------------- |
+| [[research-notes/GSM8K Platinum/content\|GSM8K Platinum]]             | https://gradientscience.org/gsm8k-platinum/ |
+| [[research-notes/Critique fine-tuning/content\|Critique fine-tuning]] | https://arxiv.org/pdf/2501.17703v2          |
+|                                                                       |                                             |
+|                                                                       |                                             |
