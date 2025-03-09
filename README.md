@@ -14,6 +14,7 @@ ENG
 <details>
 This repository is dedicated to arxiving materials that I've independently explored. My studies began from a fascination with the flexibility and uncertainty inherent in LLMs, and these documents are compiled to assist my learning and practical applications.
 
+
 **Note**: Since this repository consists of self-organized materials, some content may contain inaccuracies. Feedback and discussions are always welcome!
 
 Specifically, this repository covers:
@@ -25,7 +26,7 @@ Specifically, this repository covers:
 
 tmp
 
-| Title                                                                       | comment               |
-| --------------------------------------------------------------------------- | --------------------- |
-| [title1](obsidian://open?vault=github&file=research-notes%2Ftmp%2Ftmpfile1) | lets see what happens |
-| Marie                                                                       | Curie                 |
+| Title                       | comment               |
+| --------------------------- | --------------------- |
+| [title1](./tmp/tmpfile1.md) | lets see what happens |
+| Marie                       | Curie                 |
