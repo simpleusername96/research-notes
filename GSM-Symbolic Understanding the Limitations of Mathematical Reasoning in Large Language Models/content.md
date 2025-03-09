@@ -1,0 +1,132 @@
+[LinkedIn](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_%EC%B5%9C%EA%B7%BC-apple%EC%97%90%EC%84%9C-%EB%B0%9C%ED%91%9C%ED%95%9C-gsm-symbolic-understanding-activity-7252046850789126145-Bx_N?utm_source=share&utm_medium=member_desktop&rcm=ACoAADfxcywBkH2Mi2-YPZm7jSZERa3dQ2_DDEY)
+[Medium](https://medium.com/@simple0314/gsm-symbolic-can-llms-reason-ee89f0e75d2d)
+
+최근 Apple에서 발표한 [GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models](https://arxiv.org/abs/2410.05229) 연구로 인해 "LLM이 정말 추론할 수 있는가?"에 대한 논쟁이 활발히 진행되고 있습니다. 그러나 이 연구가 끌어모은 관심에 비해 새로운 주장이나 근거는 많지 않다고 생각합니다.
+
+**TL;DR**
+연구팀은 LLM의 수학적 추론 능력을 정밀하게 평가하기 위해 GSM-Symbolic이라는 새로운 벤치마크를 개발했습니다. GSM-Symbolic은 기존 GSM8K 문제를 템플릿화하여 다양한 버전과 난이도의 문제를 생성할 수 있게 합니다. 이를 통해 25개 이상의 최신 LLM을 테스트한 결과는 다음과 같습니다:
+
+1. 모든 모델에서 성능의 상당한 변동성 관찰
+2. 문제 난이도 증가에 따른 성능 저하 및 분산 증가
+3. GSM-NoOp(불필요한 정보 추가) 테스트에서 최대 65%의 성능 하락
+
+이러한 결과는 현재의 LLM들이 진정한 수학적 추론보다는 정교한 패턴 매칭에 의존하고 있음을 시사합니다. 최신 모델인 o1-preview와 o1-mini도 유사한 한계를 보였습니다.
+
+LLM이 입력값의 사소한 변화에 민감하게 반응한다는 것은 이미 잘 알려진 사실입니다. [Large Language Models Can Be Easily Distracted by Irrelevant Context](https://arxiv.org/abs/2302.00093)와 [Discovering Language Model Behaviors with Model-Written Evaluations](https://arxiv.org/pdf/2212.09251) 등의 연구에서 이러한 문제가 다루어졌습니다. 또한 이를 완화하기 위한 방법론도 많이 제시되어 왔습니다. 주로 프롬프트에서 지시문 수행을 위해서 필요한 부분을 선별 후 다시 작성하는 방법으로, [Self-refine: Iterative refinement with self-feedback](https://arxiv.org/abs/2303.17651)과 [System 2 Attention](https://arxiv.org/abs/2311.11829) 등이 있습니다.
+
+현재 많이 활용되는 벤치마크들이 데이터 오염의 위험이 있고, 단일 버전의 질문만을 사용하여 LLM의 성능 분산을 충분히 측정하지 못한다는 점에는 공감합니다. 그러나 LLM이 간단한 수학 추론 문제를 일관되게 풀지 못한다는 이유만으로 추론 능력에 근본적인 문제가 있다고 보기는 어렵습니다. 이미 제시된 방법론으로 이러한 문제를 완화할 수 있으며, 앞으로도 학습 데이터를 다양하게 변형함으로써 충분히 개선해 나갈 수 있는 부분이라고 생각합니다.
+
+![[GSM-Symbolic Understanding the Limitations of Mathematical Reasoning in Large Language Models/images/table 1.jpg]]
+결정적으로 연구에서 제시한 Table 1을 보면, llama3 8b와 같은 모델보다 GPT-4o와 같은 대형 모델에서 추론 성능이 보다 안정적으로 나타나는 것을 확인할 수 있습니다. 이는 이러한 문제가 LLM의 근본적인 한계라기 보다는 파라미터 크기나 학습 데이터 분포로 인해 발생한다는 것을 보여줍니다. Claude, Grok, Gemini와 같은 비공개 모델도 평가 대상에는 들어가 있지는 않지만, 3.5 sonnet과 같은 SOTA 모델들에서는 GPT-4o와 마찬가지로 성능 저하가 크지는 않을 것으로 생각됩니다.
+
+연구의 내용에 대해서 조금 더 궁금하신 분들은 아래에 정리해 두었으니 참고 부탁드립니다!
+
+
+## 연구 배경
+
+최근 LLM의 수학, 논리 추론 과제에서의 성과가 진정한 이해와 추론 능력에서 비롯된 것인지, 아니면 단순히 훈련 데이터에 나타난 패턴을 적용한 결과인지에 대한 의문이 제기되고 있습니다.
+
+1. Pattern-Matching vs Formal Reasoning:
+    - Pattern-Matching: LLM이 훈련 데이터에서 유사한 패턴을 찾아 표면적 특징(예: 숫자나 단어)을 기반으로 답변을 생성하는 방식입니다. 
+    - Formal Reasoning: 논리적 규칙에 기반한 단계적 사고 과정으로, 문제의 구조를 이해하고 체계적으로 해결책을 도출하는 방식입니다. 연구진은 LLM이 pattern-matching에 강점을 보이지만, formal reasoning이 필요한 상황에서는 여전히 한계를 보인다고 지적합니다.
+2. GSM8K 벤치마크의 한계:
+    - GSM8K는 초등학교 수준의 수학 문제를 다루는 대표적인 LLM 평가 도구입니다.
+    - 그러나 고정된 문제를 사용하기 때문에 모델의 다양한 조건에서의 일반화 능력과 성능을 평가하기 어렵습니다.
+    - 또한 데이터 오염 위험이 있어 모델이 실제로 추론을 하는 것인지 아니면 단순히 문제를 기억하고 있는 것인지 구분하기 어렵습니다.
+3. 연구의 필요성:
+    - LLM의 수학적 추론 능력을 더 정확하고 다각도로 평가할 수 있는 새로운 방법론이 필요했습니다.
+    - 특히 모델이 문제의 본질을 이해하고 체계적으로 해결하는지, 아니면 단순히 표면적 패턴만을 인식하고 있는지를 구분할 수 있는 평가 방식이 요구되었습니다.
+4. 연구의 접근 방식:
+    - GSM-Symbolic이라는 새로운 벤치마크를 개발하여 다양한 난이도와 형태를 가진 문제들을 생성했습니다.
+    - 이를 통해 모델의 성능을 단일 점수가 아닌 분포로 파악하고, 문제의 구조적 변화에 따른 모델의 반응을 분석했습니다.
+    - 특히 GSM-NoOp를 통해 모델이 문제 해결에 불필요한 정보를 적절히 무시할 수 있는지 검증함으로써, 진정한 이해와 추론 능력을 평가하고자 했습니다.
+
+## GSM-Symbolic 소개
+![[GSM-Symbolic Understanding the Limitations of Mathematical Reasoning in Large Language Models/images/figure 1.jpg]]
+- 기존 GSM8K의 문제를 LLM을 활용해 문제의 구조를 유지한 채 변수(이름, 숫자 등) 부분만 기호로 변환했습니다.
+- 예를 들어, “Sophie가 31개의 블록을 가지고 있다”라는 문제를 “{name}이 {x}개의 블록을 가지고 있다”처럼 기호 형태로 변환합니다.
+- 이후 이 기호들을 코드로 처리하여 이름이나 숫자를 무작위로 변경한 새로운 문제를 생성합니다.
+
+## 연구 방법
+
+- 모델 선정: Gemma, Gemma2, Phi, Mistral, Llama3, GPT-4o, o1 시리즈 등 25개의 최신 오픈소스 및 비공개 모델
+- 프롬프팅 방식: 8-shot Chain-of-Thought (CoT) 프롬프팅 적용
+    - 8개의 예시 문제와 해답을 제공한 후 목표 문제 제시
+    - 모델이 단계별로 사고 과정을 설명하도록 유도
+- 디코딩 방식:
+    - 대부분의 모델에 greedy decoding 적용
+    - o1-mini와 o1-preview는 API 제한으로 인해 예외적으로 다른 디코딩 방식 사용
+- 데이터 준비:
+    - GSM8K 테스트 세트에서 100개의 문제를 무작위로 선택하여 템플릿 생성
+    - 각 템플릿에서 50개의 변형 문제 생성, 총 5000개의 문제 생성
+    - 이 5000개 문제를 100개씩 50개의 세트로 나누어 평가 진행
+- 평가 방식:
+    - 각 모델에 대해 50개의 세트를 독립적으로 평가
+    - 세트별 정확도 계산 후, 전체 세트에 대한 평균 정확도 및 표준 편차 산출
+- 난이도 변형:
+    - GSM-Symbolic-Minus-1 (GSM-M1): 원래 문제에서 한 개의 절 제거
+    - GSM-Symbolic-Plus-1 (GSM-P1): 원래 문제에 한 개의 절 추가
+    - GSM-Symbolic-Plus-2 (GSM-P2): 원래 문제에 두 개의 절 추가
+- GSM-NoOp 생성:
+    - 원래 문제에 관련 있어 보이지만 실제로는 무관한 정보 추가
+    - 모델의 정보 선별 능력과 진정한 수학적 이해도 평가
+- 비교 분석:
+    - 원본 GSM8K 성능과 GSM-Symbolic 변형들 간의 성능 비교
+    - 난이도 변화에 따른 성능 변화 분석
+    - 모델 간 성능 비교 및 특성 분석
+
+## 주요 발견
+
+### 1. GSM8K 결과의 신뢰성 문제
+![[GSM-Symbolic Understanding the Limitations of Mathematical Reasoning in Large Language Models/images/figure 2.jpg]]
+GSM-Symbolic을 통한 평가 결과, 모든 모델에서 성능의 상당한 변동성이 관찰되었습니다. 
+특히 주목할 만한 점은, 대부분의 모델(25개 중 21개)에서 원래 GSM8K에서의 성능이 GSM-Symbolic 성능 분포의 오른쪽 끝에 위치한다는 것입니다. 이는 GSM8K에 포함된 질문으로 검증한 성능이, 동일한 질문 내의 수치 및 이름만 변형한 GSM-Symbolic의 질문들로 검증한 성능보다 유의미하게 높은 수준에 해당한다는 의미입니다. 
+이러한 현상은 GSM8K 검증에 활용되는 일부 예제들이 의도치 않게 모델의 학습 데이터에 포함되었을 가능성이 있음을 의미합니다. 현재 보고되는 GSM8K 결과들이 데이터 오염으로 인해 모델의 실제 수학적 추론 능력을 과대평가할 수 있음을 의미합니다.
+
+### 2. 입력값 변화에 따른 성능 변화
+![[GSM-Symbolic Understanding the Limitations of Mathematical Reasoning in Large Language Models/images/figure 4.jpg]]
+연구팀은 문제의 변화 유형에 따른 모델 성능을 분석했습니다:
+1. 고유명사만 변경: 비교적 적은 성능 변동을 보였습니다. 이는 모델들이 문제의 본질적인 구조를 어느 정도 파악하고 있음을 보여줍니다.
+2. 수치만 변경: 고유명사 변경에 비해 더 큰 성능 저하와 변동성이 관찰되었습니다. 이는 모델들이 특정 숫자 패턴에 과도하게 의존하고 있을 가능성을 나타냅니다.
+3. 고유명사와 수치 모두 변경: 가장 큰 성능 저하와 변동성을 보였습니다. 이는 문제의 표면적 특징이 크게 바뀌면 모델의 추론 능력이 크게 저하됨을 의미합니다.
+이러한 결과는 LLM의 추론 과정이 "Formal Reasoning"보다는 "Pattern Matching"에 가까울 수 있음을 시사합니다. 즉, 모델들이 문제의 논리적 구조를 이해하고 추론하기보다는, 학습 데이터에서 본 유사한 패턴을 찾아 적용하는 방식으로 답을 도출할 수 있다는 것입니다.
+
+### 3. 문제 난이도에 따른 성능 변화
+![[GSM-Symbolic Understanding the Limitations of Mathematical Reasoning in Large Language Models/images/figure 5.jpg]]
+![[GSM-Symbolic Understanding the Limitations of Mathematical Reasoning in Large Language Models/images/figure 6.jpg]]
+연구팀은 GSM-Symbolic의 난이도를 조절하여 실험을 진행했습니다. 난이도는 문제에 포함된 절(clause)의 수로 조절되었습니다:
+- GSM-M1: 원래 GSM-Symbolic에서 1개의 절을 제거한 버전 (가장 쉬움)
+- GSM-Symbolic: 기본 버전
+- GSM-P1: 1개의 절을 추가한 버전
+- GSM-P2: 2개의 절을 추가한 버전 (가장 어려움)
+
+실험 결과:
+1. 난이도 증가에 따른 평균 성능 하락: 절의 수가 증가할수록 모든 모델의 평균 성능이 낮아졌습니다. 예를 들어, Phi-3-medium-128k-instruct 모델의 경우 GSM-M1에서 89.6%의 정확도를 보였지만, GSM-P2에서는 53.1%로 크게 떨어졌습니다.
+2. 난이도 증가에 따른 성능의 분산 증가: 절의 수가 증가할수록 성능의 변동성도 커졌습니다. 이는 모델이 더 복잡한 문제를 일관되게 해결하는 데 어려움을 겪고 있음을 나타냅니다.
+이러한 결과는 LLM이 복잡한 추론 과정을 수행하는 데 근본적인 한계가 있음을 시사합니다. 문제의 복잡성이 증가함에 따라 필요한 추론 단계가 선형적으로 증가하지만, 모델의 성능 저하는 더 급격하게 일어납니다. 이는 모델이 진정한 의미의 단계별 추론을 수행하지 못하고 있을 가능성을 제기합니다.
+
+### 4. GSM-NoOp: LLM의 수학 개념 이해도 검증
+
+![[GSM-Symbolic Understanding the Limitations of Mathematical Reasoning in Large Language Models/images/figure 7.jpg]]
+![[GSM-Symbolic Understanding the Limitations of Mathematical Reasoning in Large Language Models/images/figure 8.jpg]]
+GSM-NoOp는 문제 해결과 무관한 정보를 추가하여 LLM의 진정한 수학적 개념 이해도를 테스트합니다. 이 데이터셋은 문제에 겉보기에는 관련 있어 보이지만 실제로는 불필요한 정보를 포함시켜, 모델이 이를 적절히 무시할 수 있는지를 평가합니다.
+
+주요 결과: 
+1. 모든 모델에서 상당한 성능 하락 관찰: 가장 극단적인 경우, Phi-3-mini 모델은 65% 이상의 성능 하락을 보였습니다. 최신 모델인 o1-preview조차도 17.5%의 성능 하락을 경험했습니다. 
+2. 목적과 무관한 정보 기반 답변: 많은 모델들이 문제와 무관한 정보를 무조건적으로 계산에 포함시키는 경향을 보였습니다. 이는 모델들이 문제에서 묻는 바를 명확히 이해하지 못하고 단순히 숫자가 나오면 연산을 수행하려 한다는 것을 시사합니다. 
+3. 예시의 제한적 효과: 연구팀은 모델의 성능 개선을 위해 두 가지 추가 실험을 진행했습니다: 
+		a) NoOp-Symb: 동일한 문제의 GSM-Symbolic 변형 8개를 예시로 제공. 
+			Q1: 사과 10개의 가격이 $20입니다. 5개를 샀다면 얼마를 지불해야 할까요? 
+			A1: 1개당 가격 = $20 / 10 = $2, 5개 가격 = $2 * 5 = $10 
+			Q2: 배 15개의 가격이 $30입니다. 7개를 샀다면 얼마를 지불해야 할까요? 
+			A2: 1개당 가격 = $30 / 15 = $2, 7개 가격 = $2 * 7 = $14 
+			목표 질문: 오렌지 12개의 가격이 $24입니다. 6개를 샀고, 작년에는 가격이 10% 더 쌌다면 지금은 얼마를 지불해야 할까요?
+		b) NoOp-NoOp: 다른 GSM-NoOp 문제들을 예시로 제공. 
+			Q1: 사과 10개의 가격이 $20이고, 작년에는 15% 더 쌌습니다. 5개를 산다면 지금은 얼마를 지불해야 할까요? 
+			A1: 현재 1개당 가격 = $20 / 10 = $2, 5개 가격 = $2 * 5 = $10 (작년 가격은 무관) Q2: 배 15개의 가격이 $30이고, 내일은 20% 오를 예정입니다. 7개를 오늘 산다면 얼마를 지불해야 할까요? 
+			A2: 현재 1개당 가격 = $30 / 15 = $2, 7개 가격 = $2 * 7 = $14 (내일 가격은 무관) 
+			목표 질문: 오렌지 5개를 샀는데, 그 중 2개는 썩어서 버렸습니다. 그 뒤 배를 3개 더 샀습니다.  작년에는 흉년이어서 배와 오렌지의 수확량이 급감했다면, 지금 남아있는 오렌지와 배는 총 몇 개인가요?
+	두 방법 모두 모델들의 성능을 크게 개선시키지 못했습니다. 이는 모델들이 제공된 예시들로부터 일반화된 규칙을 추출하여 새로운 문제에 적용하는 데 어려움을 겪고 있음을 시사합니다.
+4. 흥미로운 관찰: GSM8K와 GSM-Symbolic에서 성능이 좋지 않았던 일부 모델들이 NoOp-Symb 설정에서 더 나은 성능을 보였습니다. 이는 추가 연구가 필요한 부분입니다. 
+
+이러한 결과들은 LLM이 문제 해결에 필요한 정보를 효과적으로 선별하지 못하고, 수학 문제를 이해하고 답변하기 보다는 패턴 매칭에 의존하고 있음을 강력히 시사합니다. 모델들은 학습 데이터에서 본 패턴을 따라 기계적으로 연산을 수행하는 것으로 보이며, 이는 실제 수학적 추론과는 거리가 있습니다.

@@ -28,9 +28,9 @@ Specifically, this repository covers:
 
 Resource List
 
-| Title                                                     | Link                                        |
-| --------------------------------------------------------- | ------------------------------------------- |
-| [GSM8K Platinum](<GSM8K Platinum/content.md>)             | https://gradientscience.org/gsm8k-platinum/ |
-| [Critique fine-tuning](<Critique fine-tuning/content.md>) | https://arxiv.org/pdf/2501.17703v2          |
-|                                                           |                                             |
-|                                                           |                                             |
+| Title                                                                                                                                                                                                    | Link                                                           |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| [GSM8K Platinum](<GSM8K Platinum/content.md>)                                                                                                                                                            | https://gradientscience.org/gsm8k-platinum/                    |
+| [Critique Fine-Tuning Learning to Critique is More Effective than Learning to Imitate](<research-notes/Critique Fine-Tuning Learning to Critique is More Effective than Learning to Imitate/content.md>) | https://arxiv.org/pdf/2501.17703v2                             |
+| [Emergent Misalignment Narrow finetuning can produce broadly misaligned LLMs](<research-notes/Emergent Misalignment Narrow finetuning can produce broadly misaligned LLMs/content.md>)                   | https://martins1612.github.io/emergent_misalignment_betley.pdf |
+|                                                                                                                                                                                                          |                                                                |
