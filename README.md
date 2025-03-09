@@ -27,11 +27,11 @@ Specifically, this repository covers:
 
 Repo Structure
 	
-- `/research`
+- `/academic`
 	LLM과 관련된 다양한 연구 논문과 학술적인 글에 대한 리뷰와 분석을 포함합니다.   
-	[Critique Fine-Tuning](<research/Critique Fine-Tuning Learning to Critique is More Effective than Learning to Imitate/content.md>), [Emergent Misalignment](<research/Emergent Misalignment Narrow finetuning can produce broadly misaligned LLMs/content.md>), [Emergent Value Systems](<research/Utility Engineering Analyzing and Controlling Emergent Value Systems in AIs/content.md>) etc.
+	[Critique Fine-Tuning](<research-notes/academic/Critique Fine-Tuning Learning to Critique is More Effective than Learning to Imitate/content.md>), [Emergent Misalignment](<research-notes/academic/Emergent Misalignment Narrow finetuning can produce broadly misaligned LLMs/content.md>), [Emergent Value Systems](<research-notes/academic/Utility Engineering Analyzing and Controlling Emergent Value Systems in AIs/content.md>) etc.
 
 
 - `/other`
-	다음과 같은, 학술적인 연구 외의 모든 내용을 포함합니다: LLM 서비스 리뷰, LLM 커뮤니티 내 이슈, 모델 및 벤치마크 평가, LLM의 예외적 행동 사례 분석  
+	학술적인 연구 외의 모든 내용을 포함합니다. 예시는 다음과 같습니다: LLM 서비스 리뷰, LLM 커뮤니티 내 이슈, 모델 및 벤치마크 평가, LLM의 예외적 행동 사례 분석  
 	[Variation selector](<other/Variation selector/content.md>), [GSM8K Platinum](<other/GSM8K Platinum/content.md>), [Developer Messages](<other/Developer Messages/content.md>) etc.

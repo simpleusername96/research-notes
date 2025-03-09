@@ -82,7 +82,7 @@ https://arxiv.org/abs/2407.06023
 		- 작업 설명: 동전 뒤집기 시나리오에서 최종 상태 예측
 		- 예시: “A coin is heads up. Roxas does not flip the coin. Schneiderman does not flip the coin. Is the coin still heads up?” -> "yes"
 	- 결과:
-		![table 1 2.jpg](<images/table 1 2.jpg>)
+		![table 1 2.jpg](<table 1 2.jpg>)
 	- 분석  
 	     — Last Letter Concatenation Task에서 필터링의 중요성 확인  
 	     — 원본 모델 결과물에 필터링 적용해 distill 시(Distill System 1) 정확도 급증  
@@ -99,7 +99,7 @@ https://arxiv.org/abs/2407.06023
 	    - Universal Self-Consistency (USC) 사용
 	    - 20개 생성 샘플링 후 USC 프롬프트로 다수결 답변 도출
 	- 결과:
-		![table 2 2.jpg](<images/table 2 2.jpg>)
+		![table 2 2.jpg](<table 2 2.jpg>)
 	- 분석:
 		-  Distilled S2A가 원본 System 2 (S2A)보다 우수한 성능 달성  
 		- 토큰 생성 수 대폭 감소  
@@ -117,7 +117,7 @@ https://arxiv.org/abs/2407.06023
 	    - Agreement: 모델의 판단과 인간 전문가 투표 간 일치도
 	    - % Inconsistent: 위치 편향으로 인한 불일치 비율
 	- 결과:
-		![table 3 1.jpg](<images/table 3 1.jpg>)
+		![table 3 1.jpg](<table 3 1.jpg>)
 	- 분석:
 	    - Distilled BSM이 원본 BSM(Llama 2-70B-chat)보다 우수한 성능 달성
 	    - 토큰 생성 수 대폭 감소
@@ -135,7 +135,7 @@ https://arxiv.org/abs/2407.06023
 	    - GSM-8k 테스트 데이터에 대해 1/5/10개의 샘플을 생성해  그 중 가장 많이 등장한 답변 추출
 	    - 생성된 총 토큰 수 측정
 	- 결과:
-		![table 4.jpg](<images/table 4.jpg>)
+		![table 4.jpg](<table 4.jpg>)
 	- 분석:
 	    - CoT Distillation이 성공적이지 못함
 	    -  Distill CoT zero-shot 결과는 샘플링을 적용해도 크게 개선되지 않음
