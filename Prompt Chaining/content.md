@@ -20,8 +20,8 @@ SELF-REFINE은 동일한 LLM을 사용하여 초기 출력을 생성하고, 그�
     - 코드 관련 작업에서는 CODEX (code-davinci-002)도 추가로 사용
 3. **주요 구성 요소**
     - 각 작업별, 단계별 특화된 프롬프트를 활용했으며 few-shot 예시와 필요한 경우 추가로 지시사항이 포함되었습니다.
-    ![[Prompt Chaining/images/figure 30.jpg]] ![[Prompt Chaining/images/figure 31.jpg]]
-	![[Prompt Chaining/images/figure 32.jpg]]
+    ![figure 30.jpg](<images/figure 30.jpg>) !![figure 31.jpg](<images/figure 31.jpg>)
+	![figure 32.jpg](<images/figure 32.jpg>)
 
 
 
@@ -55,7 +55,7 @@ SELF-REFINE은 동일한 LLM을 사용하여 초기 출력을 생성하고, 그�
 #### 결과 및 해석
 
 ##### SELF-REFINE은 기존 모델들보다 일관되게 성능이 우수한가?
-![[Prompt Chaining/images/table 1 1.jpg]]
+![table 1 1.jpg](<images/table 1 1.jpg>)
 1. **다양한 작업에서의 성능 향상**: SELF-REFINE은 각 작업에서 SELF-REFINE은 기본 모델 대비 상당한 성능 향상을 보였습니다.
 2. **선호도 기반 작업에서의 뛰어난 성과**: 특히 Dialogue Response Generation, Sentiment Reversal, Acronym Generation과 같은 선호도 기반 작업에서 큰 폭의 성능 향상을 보였습니다.
 3. **Constrained Generation 결과 개선**: 20-30개의 주어진 개념을 포함하는 문장 생성 작업에서 특히 뛰어난 성능을 보였습니다. 
@@ -64,13 +64,13 @@ SELF-REFINE은 동일한 LLM을 사용하여 초기 출력을 생성하고, 그�
 1. **모델 크기에 따른 성능 향상 패턴**: 일반적으로 GPT-4 > ChatGPT > GPT-3.5 순으로 SELF-REFINE을 통한 성능 향상이 크게 나타났습니다. 
 2. **소규모 모델에서의 한계**: Vicuna-13b와 같은 비교적 작은 모델에서는 SELF-REFINE이 효과적으로 작동하지 않았습니다. 초기 출력 이후 피드백 생성과 개선 과정에서 어려움을 겪었습니다. 
 ##### 피드백의 품질이 SELF-REFINE의 성능에 어떤 영향을 미치는가?
-![[Prompt Chaining/images/table 2 1.jpg]]
+![table 2 1.jpg](<images/table 2 1.jpg>)
 1. **구체적이고 실행 가능한 피드백의 효과**: 구체적(specific)이고 실행 가능한(actionable) 피드백이 일반적인(generic) 피드백보다 효과적이었습니다. 예를 들어, "더 긍정적인 표현을 사용하세요"보다는 "문장의 두 번째 부분에 '훌륭한', '뛰어난'과 같은 긍정적인 형용사를 추가하세요"와 같은 피드백이 더 좋은 결과를 가져왔습니다.
 2. **피드백의 중요성**: 실험 결과 실패 사례의 33%가 오류가 발생한 위치를 잘못 파악해 발생했으며 61%는 잘못된 개선안을 제시한 피드백 때문이었습니다. 실패 사례 중 오직 6%만이 개선안 생성 단계에서 발생했습니다. 
 3. **피드백 강건성**: 성공 사례의 33%에서는 부분적으로 잘못된 피드백에도 불구하고 모델이 올바르게 출력을 개선할 수 있었습니다.  
 4. **피드백의 다면성**: 여러 측면을 고려한 다면적 피드백이 단일 측면의 피드백보다 더 효과적이었습니다. 예를 들어 Dialogue Response Generation 작업에서는 관련성, 정보성, 흥미로움, 일관성 등 여러 측면에 대한 피드백을 제공했을 때 더 좋은 결과를 얻었습니다.
 ##### 반복 횟수가 SELF-REFINE의 성능에 어떤 영향을 미치는가?
-![[Prompt Chaining/images/figure 4 1.jpg]]
+![figure 4 1.jpg](<images/figure 4 1.jpg>)
 
 1. **반복에 따른 점진적 개선**: 대부분의 작업에서 반복 횟수가 증가할수록 출력의 품질이 점진적으로 향상되었습니다. 
 2. **최적의 반복 횟수**: 대부분의 작업에서 3-4회의 반복 후에 성능 향상폭이 둔화되는 경향을 보였습니다. 
@@ -88,7 +88,7 @@ https://arxiv.org/pdf/2406.00507
 #### 연구 개요 및 목적
 이 연구는 LLM을 사용한 텍스트 요약 작업에서 'prompt chaining'과 'stepwise prompt' 두 가지 방법론을 비교합니다. 
 #### 주요 개념 설명
-![[Prompt Chaining/images/figure 1.jpg]]
+![figure 1.jpg](<images/figure 1.jpg>)
 ##### Prompt Chaining
 Prompt chaining은 요약 과정을 세 단계로 나누어 각 단계마다 별도의 프롬프트를 사용하는 방식입니다:
 1. 초안 작성(Drafting): LLM이 주어진 텍스트의 초기 요약본을 생성합니다.
@@ -147,7 +147,7 @@ Stepwise prompt는 위의 세 단계(drafting, critiquing, refining)를 하나�
 2. 특히 GPT-4에 prompt chaining을 적용한 경우 가장 큰 성능 향상을 보였습니다.
 3. 모델의 성능이 좋을수록(예: GPT-4) prompt chaining의 효과가 더 크게 나타났습니다.
 ##### Exp II: Robustness
-![[Prompt Chaining/images/figure 2.jpg]]
+![figure 2.jpg](<images/figure 2.jpg>)
 - 목적: 평가 모델의 변화에 따른 결과의 일관성을 검증합니다.
 - 실험 방법:
 1. GPT-4의 두 버전(gpt-4-1106-preview와 gpt-4-0125-preview)을 평가자로 사용합니다.

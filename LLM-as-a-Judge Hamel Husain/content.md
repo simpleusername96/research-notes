@@ -1,6 +1,6 @@
 [LinkedIn](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_llm%EC%9D%84-%ED%8F%89%EA%B0%80%ED%95%98%EB%8A%94-%EB%8D%B0-llm%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%98%EB%8A%94-llm-as-a-judge-%ED%8A%B8%EB%A0%8C%EB%93%9C%EC%99%80-activity-7258525798356148225-qxj4?utm_source=share&utm_medium=member_desktop&rcm=ACoAADfxcywBkH2Mi2-YPZm7jSZERa3dQ2_DDEY)
 
-![[LLM-as-a-Judge Hamel Husain/images/Pasted image 20241102200501.png]]
+![Pasted image 20241102200501.png](<images/Pasted image 20241102200501.png>)
 LLM을 평가하는 데 LLM을 활용하는 "LLM-as-a-judge" 트렌드와 관련해 의미있는 글을 공유합니다!
 
 기존의 LLM 평가 방식에서는 지나치게 많은 지표와 복잡한 점수 체계를 사용하여 실제로 중요한 부분을 놓치는 경우가 많았습니다. 도메인 전문가의 부재로 인해 유저와 비즈니스가 중요하다고 생각하는 점이 반영되지 않은 벤치마크가 생성되고, 이는 업무에 LLM을 도입하는 것을 방해해왔습니다.
