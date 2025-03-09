@@ -22,7 +22,6 @@ Specifically, this repository covers:
 - How dataset composition methods during pre- and post-training affect quantitative metrics and downstream tasks, and the reasons for these effects.
 - Techniques for simulating human group interactions using LLMs, and implications of LLM-based systems on society.
 - Observations of LLMs' internal mechanisms and behavioral patterns, including reasoning, hallucination, generalization, sycophancy, planning, and alignment.
-- 
 </details>
 
 
