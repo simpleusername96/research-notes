@@ -1,3 +1,5 @@
+2024.07.04
+
 [LinkedIn](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_lost-in-the-middle-activity-7219735971578138624-VcMq?utm_source=share&utm_medium=member_desktop&rcm=ACoAADfxcywBkH2Mi2-YPZm7jSZERa3dQ2_DDEY)
 [Medium](https://medium.com/@simple0314/lost-in-the-middle-0313264b35d0)
 

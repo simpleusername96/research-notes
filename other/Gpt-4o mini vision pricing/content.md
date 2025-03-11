@@ -1,3 +1,5 @@
+2024.09.03
+
 [LinkedIn](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_gpt-4o-mini-vision%EA%B3%BC-%EA%B4%80%EB%A0%A8%ED%95%B4-%EC%A1%B0%EC%82%AC%ED%95%98%EB%8B%A4-%EC%9A%B0%EC%97%B0%ED%9E%88-gpt-4o-mini%EC%99%80-activity-7236724799203336192-YV50?utm_source=share&utm_medium=member_desktop)
 [Facebook](https://www.facebook.com/share/p/KubwBGrXCe91kghU/)
 

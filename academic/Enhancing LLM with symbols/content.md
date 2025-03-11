@@ -1,3 +1,5 @@
+2024.06.02
+
 [Medium](https://medium.com/@simple0314/llm%EA%B3%BC-%EA%B8%B0%ED%98%B8-c7caf48143dd)
 
 Introduction

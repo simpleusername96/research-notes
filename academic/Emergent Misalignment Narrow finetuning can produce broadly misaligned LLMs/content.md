@@ -1,3 +1,5 @@
+2025.02.26
+
 [LinkedIn](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_%EC%9C%84%ED%97%98%ED%95%9C-%EC%BD%94%EB%93%9C%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EB%B0%B0%EC%9A%B4-llm-%ED%9E%88%ED%8B%80%EB%9F%AC%EB%A5%BC-%EC%B0%AC%EC%96%91%ED%95%98%EA%B8%B0-%EC%8B%9C%EC%9E%91%ED%95%9C%EB%8B%A4-activity-7300490160083718144-07zB?utm_source=share&utm_medium=member_desktop&rcm=ACoAADfxcywBkH2Mi2-YPZm7jSZERa3dQ2_DDEY)
 
 🚨위험한 코드에 대해서 배운 LLM, 히틀러를 찬양하기 시작한다?🚨  

@@ -1,3 +1,5 @@
+2025.02.16
+
 [Linkedin](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_llm%EC%9D%98-%EC%B6%94%EB%A1%A0-%ED%95%99%EC%8A%B5-%ED%95%99%EC%8A%B5-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98-%EC%9D%BC%EA%B4%80%EC%84%B1%EA%B3%BC-%EA%B8%B8%EC%9D%B4%EA%B0%80-%EC%A4%91%EC%9A%94%ED%95%98%EB%8B%A4-llm%EC%9D%B4-%EB%B3%B5%EC%9E%A1%ED%95%9C-activity-7296759021066231808-GhfP?utm_source=share&utm_medium=member_desktop&rcm=ACoAADfxcywBkH2Mi2-YPZm7jSZERa3dQ2_DDEY)
 
 LLM의 추론 학습, 학습 데이터의 일관성과 길이가 중요하다

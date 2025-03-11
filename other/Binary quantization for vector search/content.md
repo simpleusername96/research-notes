@@ -1,3 +1,5 @@
+2024.04.04
+
 [Facebook](https://www.facebook.com/byeongheon.lee.98/posts/pfbid02VyPApHYJMyAJgoXjrLzxRbFpp9pCvAjWX8A1SbBaheJkP3LhBGGHv5UQthb1rZrgl)
 
 [https://huggingface.co/blog/embedding-quantization...](https://huggingface.co/blog/embedding-quantization?fbclid=IwZXh0bgNhZW0CMTAAAR2n601oc6RoiNMCkroqfXizEGzc2IrO06Za9cyP1Xo6Onxvl7X4aTw-HL4_aem_8kfFjatblILTRcb9mX6wHA#improving-scalability)

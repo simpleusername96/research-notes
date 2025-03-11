@@ -1,5 +1,7 @@
+2024.07.16
+
 [LinkedIn](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_llm-%EC%8B%A4%ED%8C%A8-%EC%82%AC%EB%A1%80-1311%EC%9D%B4-138%EB%B3%B4%EB%8B%A4-%ED%81%AC%EB%8B%A4%EA%B3%A0-%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-gpt-4o-activity-7218853811015049217-r_4M?utm_source=share&utm_medium=member_desktop&rcm=ACoAADfxcywBkH2Mi2-YPZm7jSZERa3dQ2_DDEY)
-# LLM 실패 사례: 13.11이 13.8보다 크다고 생각하는 GPT-4o
+## LLM 실패 사례: 13.11이 13.8보다 크다고 생각하는 GPT-4o
 
 X를 보다 흥미로운 사례를 보게 되어 실험해봤습니다.
 https://x.com/billyuchenlin/status/1812948314360541302

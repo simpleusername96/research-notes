@@ -1,3 +1,5 @@
+2025.02.19
+
 Reasoning Model은 더 정직한가? 
 
 Are DeepSeek R1 And Other Reasoning Models More Faithful?

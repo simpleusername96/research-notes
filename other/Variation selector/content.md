@@ -1,3 +1,5 @@
+2025.02.14
+
 [linkedin](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_%EC%B5%9C%EA%B7%BC%EC%97%90-karpathy%EA%B0%80-variation-selector-%EA%B4%80%EB%A0%A8%ED%95%B4%EC%84%9C-%EC%96%B8%EA%B8%89%ED%95%9C-activity-7296097515311964160-t1rq?utm_source=share&utm_medium=member_desktop&rcm=ACoAADfxcywBkH2Mi2-YPZm7jSZERa3dQ2_DDEY)
 
 최근에 Karpathy가 variation selector 관련해서 언급한 내용이 이슈되고 있는데, 새롭기도 하고 잠재적인 위험이 있어 공유합니다!

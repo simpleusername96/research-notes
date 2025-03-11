@@ -1,3 +1,5 @@
+2024.11.02
+
 [LinkedIn](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_llm%EC%9D%84-%ED%8F%89%EA%B0%80%ED%95%98%EB%8A%94-%EB%8D%B0-llm%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%98%EB%8A%94-llm-as-a-judge-%ED%8A%B8%EB%A0%8C%EB%93%9C%EC%99%80-activity-7258525798356148225-qxj4?utm_source=share&utm_medium=member_desktop&rcm=ACoAADfxcywBkH2Mi2-YPZm7jSZERa3dQ2_DDEY)
 
 ![Pasted image 20241102200501.png](<images/Pasted image 20241102200501.png>)

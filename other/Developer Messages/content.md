@@ -1,3 +1,5 @@
+2024.12.18
+
 [LinkedIn](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_%EC%98%A4%EB%8A%98-%EC%83%88%EB%B2%BD-openai-devday%EC%97%90%EC%84%9C-api-%EA%B4%80%EB%A0%A8-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%EA%B0%80-%EB%B0%9C%ED%91%9C%EB%90%98%EC%97%88%EB%8A%94%EB%8D%B0%EC%9A%94-activity-7275132974864506880-Dn6B?utm_source=share&utm_medium=member_desktop)
 [Medium](https://medium.com/@simple0314/developer-message-082c6a0c9686)
 [Facebook](https://www.facebook.com/share/p/19tSq6XKC9/)

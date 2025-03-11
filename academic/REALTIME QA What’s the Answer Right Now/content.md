@@ -1,3 +1,5 @@
+2024.04.24
+
 REALTIME QA: What’s the Answer Right Now?
 https://arxiv.org/pdf/2207.13332.pdf
 

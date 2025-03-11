@@ -1,3 +1,5 @@
+2024.04.22
+
 [Facebook](https://www.facebook.com/groups/agikr/permalink/2281451218862590/)
 
 최근에 Chatbot Arena를 운영하고 있는 LMSYS가 Arena Hard v0.1이라는 새로운 벤치마크를 발표했습니다.

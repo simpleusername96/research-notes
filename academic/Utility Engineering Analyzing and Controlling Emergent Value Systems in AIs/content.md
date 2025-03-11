@@ -1,3 +1,5 @@
+2025.02.12
+
 [LinkedIn](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_llm%EC%9D%B4-%EB%82%B4%EB%B6%80%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%9D%BC%EA%B4%80%EB%90%9C-%EA%B0%80%EC%B9%98-%EC%B2%B4%EA%B3%84value-system%EB%A5%BC-%ED%98%95%EC%84%B1%ED%95%98%EA%B3%A0-activity-7295545613981466625-N9Fc?utm_source=share&utm_medium=member_desktop&rcm=ACoAADfxcywBkH2Mi2-YPZm7jSZERa3dQ2_DDEY)
 
 LLM이 내부적으로 일관된 가치 체계(value system)을 형성하고 있으며, 이는 모델의 크기가 커질수록 수정하기 어렵다는 주장이 MMLU로 유명한 Dan Hendrycks가 참여한 연구에서 제기되었습니다.

@@ -1,3 +1,5 @@
+2024.12.26
+
 [LinkedIn](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_laying-the-foundation-first-investigating-activity-7283202800036028416-c6WR?utm_source=share&utm_medium=member_desktop&rcm=ACoAADfxcywBkH2Mi2-YPZm7jSZERa3dQ2_DDEY)
 [Medium](https://medium.com/@simple0314/llm-%EA%B8%B0%EC%B4%88-%EC%97%AD%EB%9F%89%EB%B6%80%ED%84%B0-%EA%B0%80%EB%A5%B4%EC%B3%90%EC%95%BC-%ED%95%A0%EA%B9%8C-c1d2307b81f6)
 ## LLM, 기초 역량부터 가르쳐야 할까? 

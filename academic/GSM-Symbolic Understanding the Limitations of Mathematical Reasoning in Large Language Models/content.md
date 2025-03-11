@@ -1,3 +1,5 @@
+2024.10.14
+
 [LinkedIn](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_%EC%B5%9C%EA%B7%BC-apple%EC%97%90%EC%84%9C-%EB%B0%9C%ED%91%9C%ED%95%9C-gsm-symbolic-understanding-activity-7252046850789126145-Bx_N?utm_source=share&utm_medium=member_desktop&rcm=ACoAADfxcywBkH2Mi2-YPZm7jSZERa3dQ2_DDEY)
 [Medium](https://medium.com/@simple0314/gsm-symbolic-can-llms-reason-ee89f0e75d2d)
 

@@ -1,3 +1,5 @@
+2024.12.03
+
 [LinkedIn](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_ai-prompt-engineering-a-deep-dive-activity-7269420781686669312-krlR?utm_source=share&utm_medium=member_desktop)
 [Facebook](https://www.facebook.com/share/p/15diZQYz9m/)
 [Threads](https://www.threads.net/@gandanhanid/post/DDFiKo9T25E?xmt=AQGzVizHDFqBpjC2l7tP-rMvK3qSadOG21isynS1k6ynfw)

@@ -1,3 +1,5 @@
+2025.03.08
+
 [LinkedIn](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_gsm8k%EC%9D%98-%EB%9D%BC%EB%B2%A8-%EC%98%A4%EB%A5%98%EB%A5%BC-%EC%88%98%EC%A0%95%ED%95%9C-%EC%83%88%EB%A1%9C%EC%9A%B4-%EB%B2%A4%EC%B9%98%EB%A7%88%ED%81%AC-gsm8k-platinum%EC%9D%B4-activity-7304007749288239105-21sF?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADfxcywBkH2Mi2-YPZm7jSZERa3dQ2_DDEY)
 
 GSM8K의 오류를 수정한 새로운 벤치마크, GSM8K-Platinum이 공개되었습니다! ✨

@@ -1,3 +1,5 @@
+2024.03.07
+
 [Facebook](https://www.facebook.com/groups/chatgptkr/permalink/1534146497431713/)
 
 <ChatGPT4와 Claude3 System Prompt 비교>

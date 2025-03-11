@@ -1,3 +1,4 @@
+2024.05.14
 ## GPT-4o 토크나이저 관련 이슈
 [Facebook](https://www.facebook.com/photo/?fbid=7545882718799923&set=gm.2296595720681473&idorvanity=255834461424286)
 [LinkedIn](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_gpt-4o-%ED%86%A0%ED%81%AC%EB%82%98%EC%9D%B4%EC%A0%80-%EA%B4%80%EB%A0%A8-%EC%9D%B4%EC%8A%88-%EA%B4%80%EB%A0%A8%ED%95%B4%EC%84%9C-20240515%EC%97%90-%EC%B6%94%EA%B0%80-%EA%B2%8C%EC%8B%9C%EA%B8%80%EC%9D%84-activity-7196049713240973312-uodO/?originalSubdomain=kr)

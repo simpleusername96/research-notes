@@ -1,3 +1,5 @@
+2025.02.08
+
 [Linkedin](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_%EC%96%B4%EC%A0%9C-%EC%B9%98%EB%A4%84%EC%A7%84-%EB%AF%B8%EA%B5%AD-%EC%88%98%ED%95%99%EA%B2%BD%EC%8B%9C%EB%8C%80%ED%9A%8C-aime-2025-part1%EC%9D%84-%EA%B8%B0%EB%B0%98%EC%9C%BC%EB%A1%9C-llm%EB%93%A4%EC%9D%98-activity-7293903404089675776-b--k?utm_source=share&utm_medium=member_desktop)
 
 어제 치뤄진 미국 수학경시대회 AIME 2025 part1을 기반으로 LLM들의 수학 추론 능력을 평가한 결과가 공개되었습니다. 

@@ -1,3 +1,5 @@
+2024.08.25
+
 [LinkedIn](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_prompt-chaining-activity-7234154601392783360-_Opc?utm_source=share&utm_medium=member_desktop&rcm=ACoAADfxcywBkH2Mi2-YPZm7jSZERa3dQ2_DDEY)
 [Medium](https://medium.com/@simple0314/prompt-chaining-6758819cdb73)
 

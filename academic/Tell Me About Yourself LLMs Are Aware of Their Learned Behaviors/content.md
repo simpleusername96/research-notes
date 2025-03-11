@@ -1,3 +1,5 @@
+2025.02.05
+
 [Linkedin](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_llm%EC%9D%B4-%EC%8A%A4%EC%8A%A4%EB%A1%9C-%ED%95%99%EC%8A%B5%EB%90%9C-%ED%96%89%EB%8F%99%EC%9D%84-%EC%9D%B8%EC%8B%9D%ED%95%A0-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C-%EC%B5%9C%EA%B7%BC-llm%EC%9D%B4-activity-7293295453482205184-rOav?utm_source=share&utm_medium=member_desktop)
 
 📢 LLM이 스스로 학습된 행동을 인식할 수 있을까?  

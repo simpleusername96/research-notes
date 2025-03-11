@@ -1,3 +1,5 @@
+2024.09.25
+
 [linkedin](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_llm%EC%9D%B4-%EB%B8%94%EB%9E%99%EB%B0%95%EC%8A%A4%EB%9D%BC%EA%B3%A0-%EB%B6%88%EB%A6%AC%EB%8A%94-%EC%9D%B4%EC%9C%A0%EB%8A%94-%EB%8B%A8%EC%88%9C%ED%9E%88-%EA%B7%B8-%EB%82%B4%EB%B6%80-%EC%9B%90%EB%A6%AC%EA%B0%80-%EB%AA%85%ED%99%95%ED%9E%88-%EB%B0%9D%ED%98%80%EC%A7%80%EC%A7%80-activity-7244739867836874755-wE4A?utm_source=share&utm_medium=member_desktop)
 [facebook](https://www.facebook.com/share/p/17SFHesvxf/)
 [medium](https://medium.com/@simple0314/physics-of-language-model-39284ee10923)

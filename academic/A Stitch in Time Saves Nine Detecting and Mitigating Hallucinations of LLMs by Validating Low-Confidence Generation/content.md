@@ -1,3 +1,5 @@
+2024.04.19
+
 A Stitch in Time Saves Nine: Detecting and Mitigating Hallucinations of LLMs by Validating Low-Confidence Generation
 
 [Facebook](https://www.facebook.com/byeongheon.lee.98/posts/pfbid02FSpu3U7x9iuBUgwyMKCPeZqn7u5xm3qYTTnLpXu9Ljo8U39U6SC11nvNdpZwkrrrl)

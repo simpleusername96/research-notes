@@ -1,3 +1,5 @@
+2025.01.23
+
 [LinkedIn](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_%EA%B3%BC%EC%A0%81%ED%95%A9%EC%9D%B4-%EC%98%A4%ED%9E%88%EB%A0%A4-llm-%EC%84%B1%EB%8A%A5%EC%9D%84-%EB%86%92%EC%9D%B8%EB%8B%A4-hyperfitting-%ED%98%84%EC%83%81-activity-7287865122071449600-Wv75?utm_source=share&utm_medium=member_desktop)
 
 📢 과적합이 오히려 LLM 성능을 높인다? "Hyperfitting" 현상 소개  

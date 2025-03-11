@@ -1,3 +1,5 @@
+2024.04.08
+
 [Facebook](https://www.facebook.com/groups/agikr/posts/2271661406508238/?__cft__[0]=AZVRuDUyQpLghrhtXhcdkcBwCjLmZs-DQDuhF9t7PhDE7y-DkPE-bh7QaricvyPotJUeQzfU-fdedmRBVS4TtBQjEGp1QEeCYuY_1rAIqekM4hhnVXe-dCiCkoPQpvSV9wVRmBbihQA5HK7RF4iJsRIcusO2NDunzFNB-VCMnQ2GAOPC0xKRw_74EuUe7o5a4exoGHsk8DSh0BiDw5md0Gh3BzARsEZtxWKzgmbbi-bsKrSBXoyTsBt9EjX_xlvfB1o&__tn__=%2CO%2CP-y-R)
 
 안녕하세요, LLM 답변의 신뢰도를 향상시킬 수 있는 Batch Calibration이라는 방법론을 접하게 되어 소개해드리고자 합니다!

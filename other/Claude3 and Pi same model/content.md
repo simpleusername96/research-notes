@@ -1,3 +1,5 @@
+2024.03.08
+
 [Facebook](https://www.facebook.com/groups/chatgptkr/posts/1534763287370034/)
 
 <Pi와 Claude3, 같은 모델?>

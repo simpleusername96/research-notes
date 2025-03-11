@@ -1,3 +1,5 @@
+2025.03.07
+
 [LinkedIn](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_critique-fine-tuning-%EB%B0%B0%EC%9A%B0%EA%B3%A0-%EC%8B%B6%EC%9C%BC%EB%A9%B4-%EB%B9%84%ED%8C%90%ED%95%98%EB%9D%BC-%EC%B5%9C%EA%B7%BC-supervised-activity-7303617597923581952-yydw?utm_source=share&utm_medium=member_desktop&rcm=ACoAADfxcywBkH2Mi2-YPZm7jSZERa3dQ2_DDEY)
 
 연구: https://arxiv.org/pdf/2501.17703v2  

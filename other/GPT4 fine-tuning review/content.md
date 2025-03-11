@@ -1,3 +1,5 @@
+2024.03.22
+
 [Facebook](https://www.facebook.com/groups/agikr/posts/2260458847628494/)
 
 GPT-4 Fine-tuning Case Study: 성능 증가폭의 감소 & latency 급증

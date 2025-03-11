@@ -1,3 +1,5 @@
+2024.06.13
+
 [LinkedIn](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_llm%EC%97%90%EA%B2%8C-%EC%89%BD%EA%B2%8C%EB%A7%90%ED%95%98%EA%B8%B0-%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94-%EC%9E%85%EB%A0%A5-%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EB%A5%BC-%EA%B0%84%EC%86%8C%ED%99%94%ED%95%B4-llm%EC%9D%98-activity-7207057037820649472-521u?utm_source=share&utm_medium=member_desktop)
 
 <LLM에게 쉽게 말하기>  

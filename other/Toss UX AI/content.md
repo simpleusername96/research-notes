@@ -1,3 +1,5 @@
+2024.12.11
+
 [LinkedIn](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_%ED%9C%B4%EB%A6%AC%EB%B4%87-%EC%9D%B4%EC%95%BC%EA%B8%B0-1-%ED%86%A0%EC%8A%A4%EB%8A%94-ai-%EB%B4%87%EC%97%90%EA%B2%8C-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%9D%B8%ED%84%B0%EB%B7%B0%EB%A5%BC-%ED%95%9C%EB%8B%A4-activity-7272595967965585409-yR1-?utm_source=share&utm_medium=member_desktop)
 [Facebook](https://www.facebook.com/share/p/1CYtMKdJVg/)
 

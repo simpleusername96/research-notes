@@ -1,3 +1,5 @@
+2024.06.15
+
 [LinkedIn](https://medium.com/@simple0314/llm%EC%9D%80-%ED%8C%A8%ED%84%B4%EC%9D%84-%EC%9D%BD%EB%8A%94%EB%8B%A4-7a52e7fde34e)
 
 Large Language Models as General Pattern Machines

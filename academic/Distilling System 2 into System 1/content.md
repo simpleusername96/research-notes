@@ -1,3 +1,5 @@
+2024.08.27
+
 Distilling System 2 into System 1
 https://arxiv.org/abs/2407.06023
 

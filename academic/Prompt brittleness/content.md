@@ -1,3 +1,5 @@
+2024.04.14
+
 [Medium](https://medium.com/@simple0314/prompt-brittleness-아-다르고-어-다르다-88eb41e8cc48)
 [LinkedIn](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_prompt-brittleness-%EC%95%84-%EB%8B%A4%EB%A5%B4%EA%B3%A0-%EC%96%B4-%EB%8B%A4%EB%A5%B4%EB%8B%A4-activity-7204064887768010752-UeF6?utm_source=share&utm_medium=member_desktop&rcm=ACoAADfxcywBkH2Mi2-YPZm7jSZERa3dQ2_DDEY)
 
