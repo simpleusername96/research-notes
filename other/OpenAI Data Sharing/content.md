@@ -1,5 +1,7 @@
 2025.02.28
 
+[LinkedIn](https://www.linkedin.com/posts/byeongheon-lee-2b83aa222_openai%EA%B0%80-4%EC%9B%94-30%EC%9D%BC%EA%B9%8C%EC%A7%80-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A1%9C-%ED%95%99%EC%8A%B5%ED%95%98%EB%8A%94-%EA%B2%83%EC%9D%84-%EC%8A%B9%EC%9D%B8%ED%95%98%EB%8A%94-%EC%A1%B0%EA%B1%B4%EC%9C%BC%EB%A1%9C-%EB%AC%B4%EB%A3%8C-activity-7301150153292316672-pB42?utm_source=share&utm_medium=member_desktop&rcm=ACoAADfxcywBkH2Mi2-YPZm7jSZERa3dQ2_DDEY)
+
 OpenAI가 4월 30일까지 데이터로 학습하는 것을 승인하는 조건으로 무료 토큰을 제공합니다!
 2월 말까지만 제공하는 것으로 알고 있었는데, gpt-4.5 공개 이후 기한을 늘렸나 보네요.
 
