@@ -83,6 +83,7 @@ https://arxiv.org/abs/2407.06023
 	- Coin Flip Reasoning Task
 		- 작업 설명: 동전 뒤집기 시나리오에서 최종 상태 예측
 	- 결과:
+
 		![images/table12.jpg](<images/table12.jpg>)
 	- 분석  
 	     — Last Letter Concatenation Task에서 필터링의 중요성 확인  
@@ -100,6 +101,7 @@ https://arxiv.org/abs/2407.06023
 	    - Universal Self-Consistency (USC) 사용
 	    - 20개 생성 샘플링 후 USC 프롬프트로 다수결 답변 도출
 	- 결과:
+
 		![images/table22.jpg](<images/table22.jpg>)
 	- 분석:
 		-  Distilled S2A가 원본 System 2 (S2A)보다 우수한 성능 달성  
