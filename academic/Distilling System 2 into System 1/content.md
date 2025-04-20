@@ -82,9 +82,8 @@ https://arxiv.org/abs/2407.06023
 		- 예시: “Take the last letters of the words in ‘Edgar Bob’ and concatenate them.” -> "rb"
 	- Coin Flip Reasoning Task
 		- 작업 설명: 동전 뒤집기 시나리오에서 최종 상태 예측
-		- 예시: “A coin is heads up. Roxas does not flip the coin. Schneiderman does not flip the coin. Is the coin still heads up?” -> "yes"
 	- 결과:
-		![table 1 2.jpg](<table 1 2.jpg>)
+		![images/table 1 2.jpg](<table 1 2.jpg>)
 	- 분석  
 	     — Last Letter Concatenation Task에서 필터링의 중요성 확인  
 	     — 원본 모델 결과물에 필터링 적용해 distill 시(Distill System 1) 정확도 급증  
