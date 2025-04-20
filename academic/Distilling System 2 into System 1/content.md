@@ -120,7 +120,7 @@ https://arxiv.org/abs/2407.06023
 	    - Agreement: 모델의 판단과 인간 전문가 투표 간 일치도
 	    - % Inconsistent: 위치 편향으로 인한 불일치 비율
 	- 결과:
-		![table31.jpg](<table31.jpg>)
+		![images/table31.jpg](<images/table31.jpg>)
 	- 분석:
 	    - Distilled BSM이 원본 BSM(Llama 2-70B-chat)보다 우수한 성능 달성
 	    - 토큰 생성 수 대폭 감소
@@ -138,7 +138,7 @@ https://arxiv.org/abs/2407.06023
 	    - GSM-8k 테스트 데이터에 대해 1/5/10개의 샘플을 생성해  그 중 가장 많이 등장한 답변 추출
 	    - 생성된 총 토큰 수 측정
 	- 결과:
-		![table4.jpg](<table4.jpg>)
+		![images/table4.jpg](<images/table4.jpg>)
 	- 분석:
 	    - CoT Distillation이 성공적이지 못함
 	    -  Distill CoT zero-shot 결과는 샘플링을 적용해도 크게 개선되지 않음
