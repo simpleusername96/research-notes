@@ -137,7 +137,7 @@ Stepwise prompt는 위의 세 단계(drafting, critiquing, refining)를 하나�
 
 #### 주요 실험 및 결과
 ##### Exp I: Summarization Benchmark
-![[Prompt Chaining/images/table 1 2.jpg]]
+![images/table 1.jpg](<images/table 1.jpg>)
 - 목적: 다양한 모델과 prompt 방식의 요약 성능을 비교합니다.
 - 실험 방법:
 1. GPT-4 (gpt-4-0125-preview)를 baseline으로 설정합니다.
@@ -160,7 +160,7 @@ Stepwise prompt는 위의 세 단계(drafting, critiquing, refining)를 하나�
 2. Irrelevant information 측면에서는 stepwise prompt가 약간 더 나은 성능을 보였습니다.
 3. 두 버전의 GPT-4에서 유사한 결과가 나타나, 연구 결과의 일관성을 확인할 수 있었습니다.
 ##### Exp III: Human Evaluation
-![[Prompt Chaining/images/table 2 2.jpg]]
+![images/table 2.jpg](<images/table 2.jpg>)
 - 목적: LLM 기반 평가와 인간 평가 사이의 일치도를 확인하고, 실제 사용자 관점에서의 요약 품질을 평가합니다.
 - 실험 방법:
 1. 대학원생 2명이 평가를 수행합니다.
@@ -170,7 +170,7 @@ Stepwise prompt는 위의 세 단계(drafting, critiquing, refining)를 하나�
 1. 인간 평가에서도 prompt chaining이 stepwise prompt보다 우수한 성능을 보이는 경향이 확인되었습니다.
 2. 그러나 샘플 크기가 작아 통계적 유의성을 확보하기는 어려웠습니다.
 ##### Exp IV: Critique Evaluation
-![[Prompt Chaining/images/table 3 1.jpg]]
+![images/table 3.jpg](<images/table 3.jpg>)
 - 목적: 중간 단계인 critique의 품질을 평가하여, 각 방법의 내부 프로세스를 이해하고 최종 요약 품질과의 관계를 분석합니다.
 - 실험 방법:
 1. METACRITIQUE를 사용하여 precision, recall, F1 score를 비교합니다.
