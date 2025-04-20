@@ -83,7 +83,7 @@ https://arxiv.org/abs/2407.06023
 	- Coin Flip Reasoning Task
 		- 작업 설명: 동전 뒤집기 시나리오에서 최종 상태 예측
 	- 결과:
-		![images/table12.jpg](<table12.jpg>)
+		![images/table12.jpg](<images/table12.jpg>)
 	- 분석  
 	     — Last Letter Concatenation Task에서 필터링의 중요성 확인  
 	     — 원본 모델 결과물에 필터링 적용해 distill 시(Distill System 1) 정확도 급증  
