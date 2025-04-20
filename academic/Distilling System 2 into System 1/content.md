@@ -100,7 +100,7 @@ https://arxiv.org/abs/2407.06023
 	    - Universal Self-Consistency (USC) 사용
 	    - 20개 생성 샘플링 후 USC 프롬프트로 다수결 답변 도출
 	- 결과:
-		![table22.jpg](<table22.jpg>)
+		![images/table22.jpg](<images/table22.jpg>)
 	- 분석:
 		-  Distilled S2A가 원본 System 2 (S2A)보다 우수한 성능 달성  
 		- 토큰 생성 수 대폭 감소  
